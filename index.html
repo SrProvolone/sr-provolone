@@ -1,0 +1,304 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body>
+<title>Sr. Provolone</title>
+<meta name="description" content="Queijos, doces mineiros, cachaças e kits de presente na Rua Cantagalo, 214, Tatuapé, São Paulo. Compre na loja, no iFood, no Keeta ou no Mercado Livre.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Ultra&family=Courgette&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--cafe:#4A2615;--cafe2:#36190C;--ouro:#D0A458;--queijo:#EFCB7B;--creme:#F3EBDE;--papel:#FBF7F0;--vinho:#A54C32;--terno:#78563B;--corda:#C4A27C;--texto:#2F1B10;--cinza:#7D6A5A}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Nunito',sans-serif;background:var(--papel);color:var(--texto);line-height:1.55}
+h1,h2,h3{font-family:'Ultra',serif;font-weight:400;line-height:1.1;text-transform:uppercase}
+.s{font-family:'Courgette',cursive;text-transform:none}
+a{color:inherit}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+header.top{position:sticky;top:0;z-index:10;background:var(--cafe);color:var(--creme)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
+.marca{font-family:'Ultra';font-size:18px;letter-spacing:.03em;text-decoration:none;display:flex;align-items:center;gap:10px;color:var(--queijo)}
+.marca img{width:42px;height:42px;border-radius:50%;background:var(--creme);border:2px solid var(--ouro);object-fit:contain;padding:5px;box-sizing:border-box}
+nav a{text-decoration:none;font-weight:600;font-size:14px;margin-left:18px;opacity:.9}
+nav a:hover{color:var(--ouro)}
+.hero{background:radial-gradient(circle at 80% 30%,#6A3E22 0,var(--cafe) 55%,var(--cafe2) 100%);color:var(--creme);padding:72px 0 80px}
+.hero .wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.hero small{color:var(--ouro);font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:13px}
+.hero h1{font-size:clamp(34px,5.4vw,60px);margin:14px 0 18px}
+.hero h1 em{font-style:normal;color:var(--queijo)}
+.hero p{font-size:19px;max-width:560px;opacity:.92}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:40px;font-weight:800;text-decoration:none;font-size:15px;border:2px solid transparent}
+.btn.ouro{background:var(--ouro);color:var(--cafe2)}
+.btn.contorno{border-color:var(--creme);color:var(--creme)}
+.btn.vinho{background:var(--vinho);color:var(--creme)}
+.selo{aspect-ratio:1;border-radius:50%;background:var(--creme);border:8px solid var(--ouro);box-shadow:0 0 0 6px var(--cafe),0 0 0 9px var(--corda);display:flex;align-items:center;justify-content:center;padding:12%;max-width:500px;margin-left:auto;overflow:hidden}
+.selo img{width:100%;height:100%;object-fit:contain}
+.selo b{font-family:'Ultra';font-size:30px;font-weight:400}
+.selo span{font-size:13px;color:var(--cinza)}
+section{padding:72px 0}
+.rot{color:var(--vinho);font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:13px}
+section h2{font-size:clamp(28px,4vw,40px);color:var(--cafe);margin:8px 0 14px}
+.sub{color:var(--cinza);font-size:17px;max-width:680px;margin-bottom:30px}
+.canais{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.canal{background:#fff;border:2px dashed var(--corda);border-radius:14px;padding:22px;text-decoration:none;transition:.15s}
+.canal:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(59,36,22,.12)}
+.canal b{display:block;font-family:'Ultra';font-weight:400;font-size:19px;color:var(--cafe);margin-bottom:6px}
+.canal span{font-size:14px;color:var(--cinza)}
+.canal i{display:inline-block;font-style:normal;font-size:12px;font-weight:800;color:var(--vinho);margin-top:10px}
+.filtros{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:22px}
+.filtros button{font-family:inherit;font-weight:700;font-size:14px;border:1px solid #D9C8A8;background:#fff;color:var(--cafe);padding:10px 12px;border-radius:30px;cursor:pointer;width:100%}
+@media(max-width:700px){.filtros{grid-template-columns:repeat(2,1fr)}.filtros button:first-child{grid-column:1/-1}.filtros button{font-size:13px;padding:9px 8px}}
+.filtros button.on{background:var(--cafe);color:var(--creme);border-color:var(--cafe)}
+.prods{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.prods.vit{grid-template-columns:repeat(4,1fr)}
+.prod{background:#fff;border:2px dashed var(--corda);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;text-decoration:none}
+.prod .ft{aspect-ratio:1;background:#fff;display:flex;align-items:center;justify-content:center;padding:14px}
+.prod .ft img{max-width:100%;max-height:100%;object-fit:contain}
+.prod .info{padding:14px 16px 16px;border-top:1px solid #F0E6D4;display:flex;flex-direction:column;gap:6px;flex:1}
+.prod .m{font-size:12px;font-weight:800;color:var(--ouro);text-transform:uppercase;letter-spacing:.06em}
+.prod .t{font-size:14px;font-weight:600;color:var(--texto);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.prod .p{margin-top:auto;font-weight:800;color:var(--vinho);font-size:14px}
+.prod .p small{font-weight:600;font-size:12px;color:var(--cinza);margin-left:6px}
+.mais{text-align:center;margin-top:24px}
+.loja{background:var(--cafe);color:var(--creme)}
+.loja h2{color:var(--creme)}
+.loja .sub{color:#DCCDB4}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.bloco{background:var(--cafe2);border:1px solid #4E3423;border-radius:14px;padding:24px}
+.bloco h3{font-size:20px;color:var(--ouro);margin-bottom:8px}
+.kits .cols .bloco{background:#fff;border-color:#E8DCC6}
+.kits .bloco h3{color:var(--vinho)}
+.kits .preco{font-family:'Ultra';font-size:24px;color:var(--cafe);margin:8px 0}
+.kits ul{padding-left:18px;font-size:15px}
+.kits .faixa{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ouro)}
+.corp{margin-top:22px;background:var(--creme);border:2px dashed var(--ouro);border-radius:14px;padding:22px 26px;display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+.visite .wrap{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:stretch}
+.mapa{border-radius:14px;overflow:hidden;border:1px solid #E8DCC6;min-height:320px}
+.mapa iframe{width:100%;height:100%;min-height:320px;border:0}
+.dados p{margin-bottom:14px;font-size:17px}
+.dados b{color:var(--cafe)}
+.aval{margin-top:20px;background:#fff;border:1px solid #E8DCC6;border-radius:14px;padding:20px}
+footer{background:var(--cafe2);color:#CDBEA5;padding:34px 0;font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.marcas{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:14px}
+.marcas div{background:#fff;border:1px solid #E8DCC6;border-radius:12px;height:96px;display:flex;align-items:center;justify-content:center;padding:12px}
+.marcas img{max-width:100%;max-height:100%}
+.zap{position:fixed;right:18px;bottom:18px;z-index:20;background:#1F8F4E;color:#fff;font-weight:800;text-decoration:none;padding:14px 20px;border-radius:40px;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.mapa-link{display:flex;flex-direction:column;justify-content:center;gap:6px;padding:28px;text-decoration:none;background:#fff;border:2px dashed var(--corda)}
+.mapa-link b{font-family:'Ultra';font-weight:400;font-size:24px;text-transform:uppercase;color:var(--cafe)}
+.mapa-link span{color:var(--cinza)}.mapa-link i{font-style:normal;font-weight:800;color:var(--vinho);margin-top:10px}
+.semfoto::after{content:"Sr. Provolone";font-family:'Ultra';text-transform:uppercase;font-size:14px;color:var(--corda);text-align:center}
+.hero{position:relative;overflow:hidden}
+.hero .wrap{position:relative;z-index:1}
+.furos{position:absolute;inset:0;z-index:0;pointer-events:none}
+.furo{position:absolute;border-radius:50%;background:rgba(18,7,2,.26);box-shadow:inset 3px 4px 8px rgba(0,0,0,.38),0 1px 0 rgba(239,203,123,.14);animation:deriva 16s ease-in-out infinite}
+@keyframes deriva{0%,100%{transform:translate(0,0)}50%{transform:translate(8px,-14px)}}
+@keyframes sobe{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes aparece{from{opacity:0;transform:scale(.88)}to{opacity:1;transform:none}}
+@keyframes balanca{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+.hero .wrap>div:first-child>*{animation:sobe .75s cubic-bezier(.2,.7,.2,1) both}
+.hero .wrap>div:first-child>:nth-child(2){animation-delay:.12s}
+.hero .wrap>div:first-child>:nth-child(3){animation-delay:.24s}
+.hero .wrap>div:first-child>:nth-child(4){animation-delay:.36s}
+.hero .selo{animation:aparece .9s .2s cubic-bezier(.2,.7,.2,1) both}
+.hero .selo img{animation:balanca 6s ease-in-out 1.2s infinite;transform-origin:50% 85%}
+@media(prefers-reduced-motion:reduce){.furo,.hero .wrap>div:first-child>*,.hero .selo,.hero .selo img{animation:none!important}}
+.loja{position:relative;overflow:hidden;padding:104px 0 112px}
+.loja::before{content:"";position:absolute;inset:-12px;background:url(e3ad8b46af71.jpg) center 6%/cover no-repeat;filter:blur(1.5px);z-index:0}
+.loja::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(54,25,12,.90) 0%,rgba(54,25,12,.64) 38%,rgba(54,25,12,.70) 62%,rgba(54,25,12,.94) 100%);z-index:0}
+.loja .wrap{position:relative;z-index:1}
+.loja .bloco{background:rgba(54,25,12,.74);border:1px solid rgba(208,164,88,.38);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);padding:14px 14px 26px}
+.loja .bloco h3,.loja .bloco p{padding:0 10px}
+.loja .bloco h3{font-size:24px;margin-top:20px}
+.fotoslot{height:230px;border-radius:10px;overflow:hidden;background:var(--creme);border:2px dashed var(--corda);display:flex;align-items:center;justify-content:center}
+.fotoslot img{width:100%;height:100%;object-fit:cover}
+.fotoslot.provisoria img{object-fit:contain;padding:10px}
+.loja .fotoslot img{object-fit:contain}
+.kits .fotoslot{height:auto;aspect-ratio:1/1;background:#1a0f08}.kits .fotoslot img{object-fit:cover}
+.mapa-emb~.mapa-link{display:none}
+.mapa-emb{min-height:360px}
+.gloss-btn{background:none;border:0;padding:0;font-family:'Courgette';font-size:16px;color:var(--queijo);text-decoration:underline;text-underline-offset:4px;cursor:pointer}
+dialog.gloss{margin:auto;border:0;border-radius:16px;padding:0;width:calc(100% - 32px);max-width:580px;background:var(--papel);color:var(--texto);box-shadow:0 24px 70px rgba(0,0,0,.55)}
+dialog.gloss::backdrop{background:rgba(30,12,4,.72)}
+.gl-in{margin:10px;padding:26px 24px 22px;border:2px dashed var(--corda);border-radius:12px;max-height:calc(100vh - 80px);overflow:auto;position:relative}
+.gl-in h2{font-size:28px;margin:0 40px 8px 0;color:var(--cafe)}
+.gl-in>p{color:var(--cinza);font-size:15px;margin-bottom:18px}
+.gl-fecha{position:absolute;top:14px;right:14px;width:36px;height:36px;border-radius:50%;border:1px solid var(--corda);background:#fff;color:var(--cafe);font-size:18px;line-height:1;cursor:pointer}
+.gl-item{padding:14px 0;border-top:1px solid #E8DCC6}
+.gl-item h3{font-size:19px;color:var(--vinho);margin-bottom:4px}
+.gl-item p{margin:0 0 6px;font-size:15px}
+.gl-item .ex{font-family:'Courgette';color:var(--terno);font-size:16px}
+.gl-item .onde{font-size:13px;color:var(--cinza)}
+.gl-mais{font-family:'Ultra';font-weight:400;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--cafe);margin:18px 0 0;padding-top:16px;border-top:2px dashed var(--corda)}
+.gl-mais+.gl-item{border-top:0;padding-top:8px}
+.cad{background:var(--papel)}
+.cad .wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.cad h2{margin-bottom:10px}
+.cta-card{background:#fff;border:2px dashed var(--corda);border-radius:16px;padding:28px;display:grid;gap:18px;justify-items:start}
+.cta-card p{margin:0;font-size:17px}
+@media(max-width:900px){.prods.vit{grid-template-columns:repeat(2,1fr)}.cad .wrap{grid-template-columns:1fr}}
+.prod .ft{padding:0;position:relative}.prod .ft img{width:100%;height:100%;object-fit:cover}
+.prod .tag{position:absolute;top:10px;left:10px;background:var(--ouro);color:var(--cafe2);font-weight:800;font-size:11px;text-transform:uppercase;letter-spacing:.06em;padding:4px 10px;border-radius:30px;z-index:1}
+.prod .s{font-size:12.5px;color:var(--cinza);line-height:1.35}
+.prod .cmp a.wa{background:#fff}
+.vermais{grid-column:1/-1;text-align:center;margin-top:4px}.vermais button{font-family:inherit;font-weight:800;font-size:14px;border:2px dashed var(--corda);background:#fff;color:var(--cafe);padding:11px 24px;border-radius:30px;cursor:pointer}.vermais button:hover{background:var(--cafe);border-color:var(--cafe);color:var(--creme)}
+h3.cat{grid-column:1/-1;font-family:'Ultra',serif;text-transform:uppercase;font-weight:400;font-size:22px;color:var(--cafe);margin:22px 0 2px;padding-bottom:8px;border-bottom:2px dashed var(--corda);display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+h3.cat:first-child{margin-top:0}
+h3.cat span{font-family:'Nunito',sans-serif;font-weight:700;font-size:13px;color:var(--cinza);text-transform:none}
+.mais p{font-weight:700;color:var(--cafe);margin:0 0 4px}.mais .btns{justify-content:center;margin-top:12px}
+.btn.breve{background:#fff;color:var(--cinza);border:2px dashed var(--corda);cursor:default}.btn.breve small{font-weight:700;font-size:12px}
+.prod .cmp{margin-top:auto;display:grid;gap:6px;padding-top:8px}
+.prod .cmp a{display:block;text-align:center;text-decoration:none;font-weight:800;font-size:13px;line-height:1.2;padding:9px 10px;border-radius:30px;border:2px solid var(--vinho);color:var(--vinho);background:#fff}
+.prod .cmp a.ml{background:var(--vinho);color:var(--creme)}
+.prod .cmp a:hover{background:var(--cafe);border-color:var(--cafe);color:var(--creme)}
+.slogan-rod{flex-basis:100%;font-size:22px;color:var(--queijo)}
+.zap{right:max(18px,env(safe-area-inset-right,0px));bottom:max(18px,env(safe-area-inset-bottom,0px))}
+@media(max-width:900px){.hero .wrap{grid-template-columns:1fr}.selo{margin:0 auto;max-width:340px}.canais,.prods{grid-template-columns:repeat(2,1fr)}.cols{grid-template-columns:1fr}.visite .wrap{grid-template-columns:1fr}nav{display:none}}
+@media(max-width:480px){.prods{grid-template-columns:repeat(2,1fr);gap:10px}.canais{grid-template-columns:1fr}}
+</style>
+
+<!-- LINKS GENÉRICOS (trocar antes de publicar): iFood (busca), Keeta (home), TikTok (@sr.provolone a confirmar). Horário completo pendente. -->
+
+<header class="top"><div class="wrap">
+<a class="marca" href="#topo"><img src="812111480885.webp" alt=""><span>SR. PROVOLONE</span></a>
+<nav><a href="#comprar">Onde comprar</a><a href="#produtos">Produtos</a><a href="#kits">Kits de Natal</a><a href="#marcas">Marcas</a><a href="#visite">Visite</a></nav>
+</div></header>
+
+<section class="hero" id="topo"><div class="furos" aria-hidden="true"><i class="furo" style="left:38%;top:3%;width:90px;height:90px;animation-delay:-0s;animation-duration:14s"></i><i class="furo" style="left:14%;top:70%;width:56px;height:56px;animation-delay:-2s;animation-duration:16s"></i><i class="furo" style="left:30%;top:18%;width:34px;height:34px;animation-delay:-4s;animation-duration:18s"></i><i class="furo" style="left:44%;top:82%;width:110px;height:110px;animation-delay:-1s;animation-duration:20s"></i><i class="furo" style="left:58%;top:6%;width:48px;height:48px;animation-delay:-3s;animation-duration:22s"></i><i class="furo" style="left:68%;top:52%;width:26px;height:26px;animation-delay:-5s;animation-duration:24s"></i><i class="furo" style="left:78%;top:90%;width:64px;height:64px;animation-delay:-2s;animation-duration:26s"></i><i class="furo" style="left:88%;top:30%;width:84px;height:84px;animation-delay:-0s;animation-duration:28s"></i><i class="furo" style="left:22%;top:48%;width:22px;height:22px;animation-delay:-6s;animation-duration:30s"></i><i class="furo" style="left:92%;top:70%;width:40px;height:40px;animation-delay:-4s;animation-duration:32s"></i></div><div class="wrap">
+<div>
+<small class="s" style="letter-spacing:0;text-transform:none;font-size:20px;font-weight:400">Ele tinha um queijo, e um sonho.</small>
+<h1>Um empório mineiro, <em>no coração do Tatuapé para todo o Brasil</em></h1>
+<p>Queijos, doces mineiros, cachaças e azeites escolhidos um a um. Prove no balcão, peça pelo iFood ou receba em casa pelo Mercado Livre.</p>
+<div class="btns">
+<a class="btn ouro" href="https://www.google.com/maps/search/?api=1&query=Sr.+Provolone+Rua+Cantagalo+214+S%C3%A3o+Paulo" target="_blank" rel="noopener">Como chegar</a>
+<a class="btn contorno" href="https://wa.me/5511921461891" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+</div>
+</div>
+<div class="selo"><img src="812111480885.webp" alt="Sr. Provolone, mascote de chapéu acenando com uma cesta de queijos"></div>
+</div></section>
+
+<section id="comprar"><div class="wrap">
+<div class="rot">Onde comprar</div>
+<h2>Do jeito que for melhor para você</h2>
+<p class="sub">Com pressa, peça no app e chega na hora. Sem pressa, o Mercado Livre manda para o Brasil inteiro. Com tempo, venha provar.</p>
+<div class="canais">
+<a class="canal" href="https://www.google.com/maps/search/?api=1&query=Sr.+Provolone+Rua+Cantagalo+214+S%C3%A3o+Paulo" target="_blank" rel="noopener"><b>Na loja</b><span>Logo ali, na Rua Cantagalo, 214, Tatuapé. Venha provar no balcão.</span><br><i>Ver rota →</i></a>
+<a class="canal" href="https://www.ifood.com.br/delivery/sao-paulo-sp/sr-provolone-vila-gomes-cardim/ade979ba-a06f-4bc9-a57b-c04c70fd2244" target="_blank" rel="noopener"><b>iFood</b><span>Entrega rápida para a região do Tatuapé, Carrão e Anália Franco.</span><br><i>Pedir no iFood →</i></a>
+<a class="canal" href="https://url-eu.mykeeta.com/3LCCCkkz" target="_blank" rel="noopener"><b>Keeta</b><span>Também entregamos pelo Keeta, com os mesmos produtos da loja.</span><br><i>Pedir no Keeta →</i></a>
+<a class="canal" href="https://oia.99app.com/dlp9/0GZ6pE" target="_blank" rel="noopener"><b>99Food</b><span>Mais uma opção de entrega para quem mora perto da loja.</span><br><i>Pedir no 99 →</i></a>
+<a class="canal" href="https://www.mercadolivre.com.br/pagina/srprovolone" target="_blank" rel="noopener"><b>Mercado Livre</b><span>Doces, azeites e kits com envio para todo o Brasil.</span><br><i>Ver a loja →</i></a>
+<a class="canal" href="https://wa.me/5511921461891" target="_blank" rel="noopener"><b>WhatsApp</b><span>Encomendas, kits, sugestões de combinações e pedidos para empresas.</span><br><i>Chamar agora →</i></a>
+<a class="canal" href="https://www.instagram.com/sr.provolone/" target="_blank" rel="noopener"><b>Instagram</b><span>Novidades da prateleira, lote novo de queijo e bastidores.</span><br><i>@sr.provolone →</i></a>
+<a class="canal" href="https://www.tiktok.com/@sr.provolone" target="_blank" rel="noopener"><b>TikTok</b><span>Os vídeos dos doces abrindo, quebrando e derretendo.</span><br><i>Seguir →</i></a>
+<a class="canal" href="https://www.google.com/search?q=sr+provolone+google+meu+negocio&ie=UTF-8#lrd=0x94ce5fb54fd62219:0xcf48201b3f4c2448,3,,,," target="_blank" rel="noopener"><b>Google</b><span>Gostou, uai? Sua avaliação ajuda o bairro a encontrar a loja.</span><br><i>Avaliar →</i></a>
+</div>
+</div></section>
+
+<section id="produtos" style="background:var(--creme)"><div class="wrap">
+<div class="rot">Produtos</div>
+<h2>Da prateleira para a sua mesa</h2>
+<p class="sub">Doces, queijos, geleias, azeites, cafés e cachaças de produtores que a gente escolheu a dedo. Para pedir qualquer produto, chame no WhatsApp ou venha provar na loja. As lojas online estão logo abaixo. Doce bão demais da conta.</p>
+<div class="filtros" id="filtros"></div>
+<div class="prods" id="prods"></div>
+<div class="mais"><p>Prefere comprar online? Visite nossas lojas:</p><div class="btns" id="lojas-mais"></div></div>
+</div></section>
+
+<section class="loja"><div class="wrap">
+<div class="rot" style="color:var(--ouro)">Só na loja</div>
+<h2>Venha provar antes de levar</h2>
+<p class="sub">Queijo pede balcão. Passa aqui para provar esse trem.</p>
+<div class="cols">
+<div class="bloco"><div class="fotoslot"><img alt="Queijos do Sr. Provolone" src="798bfed4ef86.webp"></div><h3>Queijos</h3><p>Provolone, queijos de Minas e opções para o dia a dia e para ocasião especial. Prove no balcão antes de escolher.</p></div>
+<div class="bloco"><div class="fotoslot"><img alt="Produtos para montar uma tábua em casa" src="a073315b0fc9.webp"></div><h3>Sugestões para sua tábua</h3><p>A gente indica, você monta em casa. Queijo, goiabada, doce de leite, salame e uma cachaça boa combinam bem. Pergunte no balcão ou chame no WhatsApp que a gente sugere a combinação.</p></div>
+<div class="bloco"><div class="fotoslot"><img alt="Cachaças e salames do Sr. Provolone" src="dde031908ca5.webp"></div><h3>Cachaças e salames</h3><p>Cachaça de alambique, salames e embutidos para completar a mesa.</p></div>
+</div>
+</div></section>
+
+<section class="kits" id="kits"><div class="wrap">
+<div class="rot">Kits de Natal</div>
+<h2>O presente já vem montado</h2>
+<p class="sub">Três caixas com cara de interior. Retire na loja, peça entrega na região ou receba o Kit Mimo em qualquer lugar do Brasil.</p>
+<div class="cols">
+<div class="bloco"><div class="fotoslot"><img alt="Kit Mimo" src="7f54e30a33cd.webp"></div><div class="faixa" style="margin-top:16px">Lembrança</div><h3>Kit Mimo</h3><p style="font-size:15px;color:var(--cinza);margin:8px 0 10px">Uma seleção especial que combina queijo artesanal, doce, cachaça e muito sabor para criar momentos inesquecíveis em família.</p></div>
+<div class="bloco"><div class="fotoslot"><img alt="Kit Mineiro" src="cfd4eecc8aa6.webp"></div><div class="faixa" style="margin-top:16px">Café da tarde</div><h3>Kit Mineiro</h3><p style="font-size:15px;color:var(--cinza);margin:8px 0 10px">Uma seleção especial de queijos premium, perfeita para homenagear quem sempre esteve ao seu lado com carinho, dedicação e grandes ensinamentos.</p></div>
+<div class="bloco"><div class="fotoslot"><img alt="Kit Empório" src="7748c1d90efa.webp"></div><div class="faixa" style="margin-top:16px">Para montar em casa</div><h3>Kit Empório</h3><p style="font-size:15px;color:var(--cinza);margin:8px 0 10px">Surpreenda com o kit Queijinho, Docinho e Cachacinha, uma combinação especial que reúne tradição, qualidade e muito carinho em um único presente.</p></div>
+</div>
+<div class="corp"><div><h3 style="color:var(--cafe);font-size:22px">Presente para clientes da sua empresa</h3><p>A partir de 10 kits, com cartão da sua empresa e entrega no escritório. Pedidos até 15/12.</p></div><a class="btn vinho" href="https://wa.me/5511921461891?text=Ol%C3%A1!%20Quero%20saber%20dos%20kits%20para%20empresa." target="_blank" rel="noopener">Pedir orçamento</a></div>
+</div></section>
+
+<section id="marcas"><div class="wrap">
+<div class="rot">Marcas que vendemos</div>
+<h2>Produtores de Minas e do Sul escolhidos um a um</h2>
+<p class="sub">Doces de fábricas pequenas, muitas de família, que você encontrava só na estrada.</p>
+<div class="marcas"><div><img src="293020eb037a.webp" alt="Dona Lázara" title="Dona Lázara"></div><div><img src="5d85ef04fc59.webp" alt="Tatitânia" title="Tatitânia"></div><div><img src="b0a1b98fe9b9.webp" alt="Doces Zélia" title="Doces Zélia"></div><div><img src="fb71ec1f23bf.webp" alt="Duas Irmãs" title="Duas Irmãs"></div><div><img src="9562a246a8f5.webp" alt="Colmeia" title="Colmeia"></div><div><img src="ecdafc3db201.webp" alt="Costa Doce" title="Costa Doce"></div><div><img src="72236244fac8.webp" alt="Majestic" title="Majestic"></div></div>
+</div></section>
+
+<section class="visite" id="visite" style="background:var(--creme)"><div class="wrap">
+<div class="dados">
+<div class="rot">Visite</div>
+<h2>A porta preta com o senhor de chapéu</h2>
+<p><b>Endereço:</b> Rua Cantagalo, 214, Vila Gomes Cardim (Tatuapé), São Paulo, SP, 03319-000</p>
+<p><b>Horário:</b> aberto até as 19h <!-- PENDENTE: confirmar dias e horário de abertura --></p>
+<p><b>Contato:</b> WhatsApp <a href="https://wa.me/5511921461891" target="_blank" rel="noopener" style="color:var(--vinho);font-weight:800">(11) 92146-1891</a></p>
+<div class="btns"><a class="btn vinho" href="https://www.google.com/maps/search/?api=1&query=Sr.+Provolone+Rua+Cantagalo+214+S%C3%A3o+Paulo" target="_blank" rel="noopener">Abrir no Google Maps</a></div>
+<div class="aval"><b>Já passou por aqui?</b><p style="margin:6px 0 0;font-size:15px"><a href="https://www.google.com/search?q=sr+provolone+google+meu+negocio&ie=UTF-8#lrd=0x94ce5fb54fd62219:0xcf48201b3f4c2448,3,,,," target="_blank" rel="noopener" style="color:var(--vinho);font-weight:800">Deixe sua avaliação no Google</a>. É assim que o vizinho descobre a loja.</p></div>
+</div>
+<div class="mapa mapa-emb"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.600340736572!2d-46.5718513!3d-23.546872800000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5fb54fd62219%3A0xcf48201b3f4c2448!2sSr.%20Provolone!5e0!3m2!1spt-BR!2sbr!4v1794429731898!5m2!1spt-BR!2sbr" title="Mapa da loja Sr. Provolone, Rua Cantagalo, 214" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<a class="mapa mapa-link" href="https://www.google.com/maps/search/?api=1&query=Sr.+Provolone+Rua+Cantagalo+214+S%C3%A3o+Paulo" target="_blank" rel="noopener"><b>Rua Cantagalo, 214</b><span>Vila Gomes Cardim, Tatuapé</span><i>Oncotô? Abrir rota no Google Maps →</i></a>
+</div></section>
+
+<section class="cad" id="novidades"><div class="wrap">
+<div>
+<div class="rot">Novidades da loja</div>
+<h2>Chegou lote novo, a gente avisa</h2>
+<p class="sub">Queijo novo, doce que acabou de chegar e os kits de Natal. Sem enxurrada de mensagem.</p>
+</div>
+<div class="cta-card">
+<p>Chame no WhatsApp e peça para entrar na lista. A gente avisa de lote novo, doce que chegou e kits de Natal.</p>
+<a class="btn vinho" href="https://wa.me/5511921461891?text=Ol%C3%A1!%20Quero%20receber%20as%20novidades%20do%20Sr.%20Provolone." target="_blank" rel="noopener">Receber novidades no WhatsApp</a>
+</div>
+</div></section>
+
+<footer><div class="wrap">
+<span class="s slogan-rod">Ele tinha um queijo, e um sonho.</span>
+<span>Sr. Provolone · Queijos, doces e tradições artesanais · Rua Cantagalo, 214, Tatuapé, São Paulo</span>
+<span class="s">Feito com carinho no Tatuapé · @sr.provolone</span>
+<button class="gloss-btn" type="button" id="gl-abre">Glossário mineirês</button>
+</div></footer>
+
+<dialog class="gloss" id="gloss" aria-labelledby="gl-t"><div class="gl-in"><button class="gl-fecha" type="button" aria-label="Fechar" id="gl-x">✕</button>
+<h2 id="gl-t">Glossário mineirês</h2>
+<p>O mineirês é o jeito de falar do povo de Minas Gerais, com abreviações, musicalidade e palavras coringas. Aqui no site entra uma expressão por seção. As outras ficam no fim da lista, para você ir treinando.</p>
+<div class="gl-item"><h3>Uai</h3><p>Palavra coringa para dúvida, espanto, concordância ou surpresa.</p><p class="ex">"Uai, cê já tá indo embora?"</p><p class="onde">No site: Onde comprar, no card do Google: "Gostou, uai?"</p></div><div class="gl-item"><h3>Trem</h3><p>Qualquer objeto, coisa, situação ou comida.</p><p class="ex">"Passa aqui pra pegar esse trem."</p><p class="onde">No site: Só na loja: "Passa aqui para provar esse trem."</p></div><div class="gl-item"><h3>Bão demais da conta</h3><p>Muito bom.</p><p class="ex">"Esse pão de queijo tá bão demais da conta!"</p><p class="onde">No site: Produtos: "Doce bão demais da conta."</p></div><div class="gl-item"><h3>Logo ali</h3><p>Medida de distância totalmente relativa. Pode ser na esquina ou a quilômetros de distância.</p><p class="ex">"A loja fica logo ali, na Rua Cantagalo."</p><p class="onde">No site: Onde comprar, no card da loja: "Logo ali, na Rua Cantagalo, 214."</p></div><div class="gl-item"><h3>Oncotô?</h3><p>Junção de "onde que eu tô?", para quando a pessoa está perdida.</p><p class="ex">"Oncotô? Numa loja de Minas no meio do Tatuapé."</p><p class="onde">No site: Visite, no cartão do mapa: "Oncotô? Abrir rota no Google Maps."</p></div><h3 class="gl-mais">Mais do mineirês</h3><div class="gl-item"><h3>Tem base?</h3><p>Indignação ou surpresa com algo absurdo.</p><p class="ex">"Tem base um trem desse, sô?"</p></div><div class="gl-item"><h3>Viaja ni mim não, sô</h3><p>Jeito de dizer "não brinca comigo" ou "para com isso".</p><p class="ex">"Doce de leite sem colher? Viaja ni mim não, sô."</p></div><div class="gl-item"><h3>Cêu contá cêsentichora</h3><p>"Se eu te contar, você assenta e chora". Usada para contar uma história muito triste ou trágica.</p><p class="ex">"Cêu contá cêsentichora: a última bala puxa-puxa saiu agora."</p></div><div class="gl-item"><h3>Chispa daí (ou chisa daí)</h3><p>"Sai daí depressa".</p><p class="ex">"Lote novo de queijo canastra. Chispa daí e vem provar."</p></div><div class="gl-item"><h3>Passeio</h3><p>É o termo usado para calçada.</p><p class="ex">"Dá pra sentir o cheiro de queijo lá do passeio."</p></div></div></dialog>
+<a class="zap" href="https://wa.me/5511921461891" target="_blank" rel="noopener">WhatsApp</a>
+
+<script>
+document.addEventListener('securitypolicyviolation',e=>{if(/frame|child/.test(e.violatedDirective)){const m=document.querySelector('.mapa-emb');if(m)m.remove()}});
+const P=[{"t":"Queijo 1722","m":"Alagoa","c":"Queijos e laticínios","z":"Vendido por quilo.","img":"f1e893a6efc7.webp","kg":1},{"t":"Queijo fumacê","m":"Alagoa","c":"Queijos e laticínios","z":"Vendido por quilo.","img":"21dc877d7d4b.webp","kg":1},{"t":"Queijo Só Márcio","m":"Alagoa","c":"Queijos e laticínios","z":"Vendido por quilo.","img":"1ce15328f8ee.webp","kg":1},{"t":"Café em grãos, mel de laranjeira","m":"Fazenda Jotacê","c":"Cafés","z":"Tamanho: 250 g.","img":"fb4c586c593a.webp"},{"t":"Café em grãos, caldo de cana","m":"Fazenda Jotacê","c":"Cafés","z":"Tamanho: 250 g.","img":"5fa62c9ca85b.webp"},{"t":"Café em grãos, rapadura","m":"Fazenda Jotacê","c":"Cafés","z":"Tamanho: 250 g.","img":"e4e946fb5771.webp"},{"t":"Biscoito de polvilho com parmesão","m":"Rocero","c":"Biscoitos e torradas","z":"Tamanho: 80 g.","img":"b54af6af934d.webp"},{"t":"Biscoito de polvilho com queijo Minas","m":"Rocero","c":"Biscoitos e torradas","z":"Tamanho: 80 g.","img":"1d2306ca06db.webp"},{"t":"Vinagrete de pimenta","m":"Rocero","c":"Azeites e conservas","z":"Tamanho: 330 g.","img":"922eb8477d26.webp","u":"https://www.mercadolivre.com.br/vinagrete-de-pimenta-rocero-330g/up/MLBU5470265403?pdp_filters=seller_id%3A3255124164"},{"t":"Vinagrete de jiló","m":"Rocero","c":"Azeites e conservas","z":"Tamanho: 330 g.","img":"2a3fb42de8d5.webp","u":"https://www.mercadolivre.com.br/vinagrete-de-jilo-rocero-330g/up/MLBU5514775156?pdp_filters=seller_id%3A3255124164"},{"t":"Goiabada cremosa","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanho: 400 g (lata).","img":"2b46d1ed2e20.webp","u":"https://www.mercadolivre.com.br/goiabada-cremosa-dona-lazara-doce-caipira-de-goiaba-400g/p/MLB75544491?pdp_filters=seller_id%3A3255124164"},{"t":"Doce de leite","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanhos: 400 g (lata), 220 g e 30 g (caixote), 150 g (pote).","img":"da43b9c1be95.webp","u":"https://www.mercadolivre.com.br/doce-de-leite-dona-lazara-400g/p/MLB78958060?pdp_filters=seller_id%3A3255124164"},{"t":"Abóbora com coco","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanho: 400 g (lata).","img":"4fd71095e3d6.webp","u":"https://www.mercadolivre.com.br/doce-cremoso-mineiro-de-abobora-com-coco-d-lazara-400gr/p/MLB59184424?pdp_filters=seller_id%3A3255124164"},{"t":"Cocada morena","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanho: 400 g (lata).","img":"43a3c35acb1e.webp","u":"https://www.mercadolivre.com.br/cocada-morena-receita-caipira-dona-lazara-400g/p/MLB70183293?pdp_filters=seller_id%3A3255124164"},{"t":"Cocada mineira","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanho: 400 g (lata).","img":"cdbf2ea075a7.webp","u":"https://www.mercadolivre.com.br/cocada-mineira-branca-cremosa-dona-lazara-de-coco-400g/p/MLB70265917?pdp_filters=seller_id%3A3255124164"},{"t":"Bananada","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanhos: 400 g (lata), 250 g e 40 g (caixote).","img":"4320af0427ba.webp","u":"https://www.mercadolivre.com.br/bananada-dona-lazara-lt-400g/up/MLBU4680990973?pdp_filters=seller_id%3A3255124164"},{"t":"Bala de doce de leite com amendoim","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanho: 400 g.","img":"cb30c46c34b9.webp","u":"https://www.mercadolivre.com.br/bala-de-doce-de-leite-puxa-puxa-com-amendoim-dlazara/p/MLB61276117?pdp_filters=seller_id%3A3255124164"},{"t":"Bala de doce de leite puxa-puxa","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanho: 400 g.","img":"73a52d376930.webp","u":"https://www.mercadolivre.com.br/doce-de-leite-puxa-puxa-dona-lazara-400gr/p/MLB53769210?pdp_filters=seller_id%3A3255124164"},{"t":"Goiabada","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanhos: 250 g e 40 g (caixote).","img":"ed169e9db310.webp","u":"https://www.mercadolivre.com.br/goiabada-dona-lazara-caixote-250g/up/MLBU4710225204?pdp_filters=seller_id%3A3255124164"},{"t":"Goiabada zero açúcar","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanho: 40 g (caixote).","img":"49c6b85f1e95.webp"},{"t":"Bananada zero açúcar","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanho: 40 g (caixote).","img":"e5aeeb8f1b8e.webp"},{"t":"Pingo de leite","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanho: 150 g (pote).","img":"9f98fdb873e3.webp"},{"t":"Doce de leite com goiabada","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanho: 150 g.","img":"a90fb066192e.webp"},{"t":"Docin de café","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanho: 150 g (pote).","img":"61da93449a29.webp"},{"t":"Docin de café na palha","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanho: 100 g (box).","img":"2a1c518699f2.webp"},{"t":"Pingo de leite na palha","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanho: 100 g (box).","img":"ca5025c55d2f.webp"},{"t":"Doce de leite na palha","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanhos: 100 g (box), 150 g (pacote).","img":"fe4635e41ac1.webp","u":"https://www.mercadolivre.com.br/doce-de-leite-na-palha-dona-lazara/p/MLB70310307?pdp_filters=seller_id%3A3255124164"},{"t":"Bananada na palha","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanhos: 100 g (box), 150 g (pacote).","img":"01ac9e47a84f.webp"},{"t":"Doce de leite com goiabada na palha","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanho: 150 g (pacote).","img":"a74d55b1abd1.webp"},{"t":"Pingo de leite com amendoim na palha","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanho: 150 g (pacote).","img":"07285106fb5c.webp","u":"https://www.mercadolivre.com.br/pingo-de-leite-dona-lazara-com-amendoim-na-palha-pct-150g/up/MLBU4681702657?pdp_filters=seller_id%3A3255124164"},{"t":"Bolacha sequilho","m":"Tatitânia","c":"Biscoitos e torradas","z":"Tamanho: 150 g.","img":"23fc4fc2d0a2.webp"},{"t":"Bolacha mineirinho","m":"Tatitânia","c":"Biscoitos e torradas","z":"Tamanho: 150 g.","img":"cf79692a21ad.webp"},{"t":"Bolacha goiabinha beliscão","m":"Tatitânia","c":"Biscoitos e torradas","z":"Tamanho: 150 g.","img":"cafc7b091137.webp"},{"t":"Bolacha casadinho doce de leite","m":"Tatitânia","c":"Biscoitos e torradas","z":"Tamanho: 130 g.","img":"4aaf65339721.webp"},{"t":"Leite condensado diet","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 250 g.","img":"99b23b13d571.webp"},{"t":"Mel de abelha","m":"Tatitânia","c":"Geleias e mel","z":"Tamanho: 450 g.","img":"4a48de46efed.webp","u":"https://www.mercadolivre.com.br/mel-de-abelha-tatitania-450g/up/MLBU4903875859?pdp_filters=seller_id%3A3255124164"},{"t":"Mel de abelha em bisnaga","m":"Tatitânia","c":"Geleias e mel","z":"Tamanho: 270 g.","img":"d1e13de7f5c8.webp","u":"https://www.mercadolivre.com.br/mel-de-abelha-bisnaga-tatitania-270-g/up/MLBU4692682259?pdp_filters=seller_id%3A3255124164"},{"t":"Cocada cremosa diet","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 380 g.","img":"07c79e8026af.webp","u":"https://www.mercadolivre.com.br/cocada-cremosa-diet-tatitania-380g/up/MLBU4903875845?pdp_filters=seller_id%3A3255124164"},{"t":"Doce de leite diet","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 400 g.","img":"db513cb4de4e.webp"},{"t":"Geleia de jabuticaba diet","m":"Tatitânia","c":"Geleias e mel","z":"Tamanho: 270 g.","img":"b929c0c5a613.webp"},{"t":"Cocada cubo","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 200 g.","img":"4660fe001bbc.webp"},{"t":"Doce de banana cristalizada","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 200 g.","img":"cdecc6514185.webp"},{"t":"Doce de leite com limão cubo","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 200 g.","img":"5c3a7457ae21.webp"},{"t":"Doce de leite com café cubo","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 200 g.","img":"bec8808b62dd.webp"},{"t":"Doce de leite cubo","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 200 g.","img":"81f33fc5f161.webp"},{"t":"Geleia de pimenta defumada","m":"Tatitânia","c":"Geleias e mel","z":"Tamanho: 300 g.","img":"c41ee5268961.webp"},{"t":"Geleia de laranja com pimenta","m":"Tatitânia","c":"Geleias e mel","z":"Tamanho: 300 g.","img":"6e9ab990d78f.webp"},{"t":"Geleia de jabuticaba","m":"Tatitânia","c":"Geleias e mel","z":"Tamanho: 300 g.","img":"77b5445bdf35.webp"},{"t":"Geleia de goiaba","m":"Tatitânia","c":"Geleias e mel","z":"Tamanho: 300 g.","img":"554492473f60.webp"},{"t":"Doce de leite zero lactose","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 400 g.","img":"0167c79feb32.webp","u":"https://www.mercadolivre.com.br/doce-de-leite-tatitania-zero-lactose-400g/p/MLB78355780?pdp_filters=seller_id%3A3255124164"},{"t":"Cocada cremosa","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 280 g.","img":"bc19266bcfbc.webp","u":"https://www.mercadolivre.com.br/cocada-cremosa-tatitania-280g/up/MLBU4935371496?pdp_filters=seller_id%3A3255124164"},{"t":"Doce de figo em calda","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 400 g (pote).","img":"4509632f0224.webp","u":"https://www.mercadolivre.com.br/doce-de-figo-em-calda-tatitania-400g-pote/up/MLBU4935344960?pdp_filters=seller_id%3A3255124164"},{"t":"Doce de abóbora com coco","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 400 g (pote).","img":"784906a1e9ea.webp","u":"https://www.mercadolivre.com.br/doce-de-abobora-com-coco-tatitania-400g-pote/p/MLB2124025318?pdp_filters=seller_id%3A3255124164"},{"t":"Doce de leite padrão argentino","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 430 g.","img":"5c9fec8f88e0.webp"},{"t":"Doce de leite com café","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 400 g.","img":"75cedcae79c9.webp","u":"https://www.mercadolivre.com.br/doce-de-leite-com-cafe-tatitania-400g/p/MLB2097756163?pdp_filters=seller_id%3A3255124164"},{"t":"Doce de leite com coco","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 400 g (pote).","img":"1f47d8877783.webp","u":"https://www.mercadolivre.com.br/doce-de-leite-com-coco-pote-400gr-tatitania-pocos-de-caldas/p/MLB78311826?pdp_filters=seller_id%3A3255124164"},{"t":"Cocada cremosa morena","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 400 g (pote).","img":"a4b944b6bfb3.webp","u":"https://www.mercadolivre.com.br/cocada-cremosa-morena-tatitania-400g-pote/up/MLBU4903875833?pdp_filters=seller_id%3A3255124164"},{"t":"Doce de leite com pistache","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 400 g.","img":"78c63d60e6bc.webp","u":"https://www.mercadolivre.com.br/doce-de-leite-gourmet-cremoso-tatitania-creme-de-pistache/p/MLB44236968?pdp_filters=seller_id%3A3255124164"},{"t":"Brigadeiro de colher","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 680 g.","img":"7be9b0b40e71.webp","u":"https://www.mercadolivre.com.br/brigadeiro-de-colher-tatitania-680g/up/MLBU4903875841?pdp_filters=seller_id%3A3255124164"},{"t":"Doce de mamão ralado","m":"Duas Irmãs","c":"Doces e sobremesas","z":"Tamanho: 400 g.","img":"6734f4047405.webp"},{"t":"Ambrosia","m":"Duas Irmãs","c":"Doces e sobremesas","z":"Tamanho: 400 g.","img":"86255dcef95d.webp"},{"t":"Doce de leite com geleia abacaxi","m":"Duas Irmãs","c":"Doces e sobremesas","z":"Tamanho: 400 g.","img":"2909efda019e.webp"},{"t":"Geleia morango","m":"Duas Irmãs","c":"Geleias e mel","z":"Tamanho: 250 g.","img":"036f78eef3ce.webp"},{"t":"Doce de laranja em calda","m":"Duas Irmãs","c":"Doces e sobremesas","z":"Tamanho: 680 g.","img":"6456046f20ac.webp"},{"t":"Goiabada cascão cremosa","m":"Duas Irmãs","c":"Doces e sobremesas","z":"Tamanho: 680 g.","img":"7376c7c79b77.webp"},{"t":"Doce de milho","m":"Duas Irmãs","c":"Doces e sobremesas","z":"Tamanhos: 680 g e 400 g.","img":"4e65abaea4d9.webp"},{"t":"Cachaça Heritage, envelhecida em carvalho","m":"Germana","c":"Cachaças","z":"Tamanho: 700 ml.","img":"6a7746978195.webp"},{"t":"Cachaça Germana, envelhecida em carvalho","m":"Germana","c":"Cachaças","z":"Tamanho: 1 L.","img":"b84e7b371e33.webp"},{"t":"Geleia de figo","m":"Duas Irmãs","c":"Geleias e mel","z":"Tamanho: 250 g.","img":"2af515c12db1.webp"},{"t":"Geleia de banana","m":"Duas Irmãs","c":"Geleias e mel","z":"Tamanho: 250 g.","img":"5fb22b7617c9.webp"},{"t":"Cocada cremosa com geleia de maracujá","m":"Duas Irmãs","c":"Doces e sobremesas","z":"Tamanho: 680 g.","img":"d4dc13a8cfe5.webp","u":"https://www.mercadolivre.com.br/sobremesa-lactea-c-coco-e-geleia-de-maracuja-680g/up/MLBU4935344956?pdp_filters=seller_id%3A3255124164"},{"t":"Provolone desidratado com goiabada","m":"Kamila","c":"Queijos e laticínios","z":"","img":"45e862826c85.webp"},{"t":"Kit azeites aromatizados em spray","m":"Olibi","c":"Azeites e conservas","z":"Tamanho: 100 ml.","img":"a4ccfa306f25.webp"},{"t":"Azeite aromatizado com manjericão","m":"Olibi","c":"Azeites e conservas","z":"Tamanho: 100 ml.","img":"cbfaa3491bbb.webp"},{"t":"Cachaça Velho Ferreira ouro","m":"Velho Francisco","c":"Cachaças","z":"Tamanho: 750 ml.","img":"4b5107cf3312.webp"},{"t":"Manteiga Turvo com sal","m":"Salgado Irmãos","c":"Queijos e laticínios","z":"Tamanho: 200 g.","img":"d63c018ca64c.webp"},{"t":"Manteiga Real Premium com sal","m":"Salgado Irmãos","c":"Queijos e laticínios","z":"Tamanho: 500 g.","img":"54d3bfd24488.webp"},{"t":"Azeite sabor limão siciliano","m":"Costa Doce","c":"Azeites e conservas","z":"Tamanho: 250 ml.","img":"139aad9efb96.webp","u":"https://www.mercadolivre.com.br/azeite-costa-doce-sabor-limao-siciliano-250ml/up/MLBU4932059456?pdp_filters=seller_id%3A3255124164"},{"t":"Azeite sabor manjericão italiano","m":"Costa Doce","c":"Azeites e conservas","z":"Tamanho: 250 ml.","img":"4c01b5d71112.webp","u":"https://www.mercadolivre.com.br/azeite-costa-doce-sabor-manjericao-italiano-250ml/up/MLBU4932059436?pdp_filters=seller_id%3A3255124164"},{"t":"Requeijão tradicional","m":"Bom da Fazenda","c":"Queijos e laticínios","z":"Tamanho: 250 g.","img":"c1389daaf48f.webp"},{"t":"Requeijão com azeitona","m":"Bom da Fazenda","c":"Queijos e laticínios","z":"Tamanho: 250 g.","img":"5ec824ef8a9e.webp"},{"t":"Requeijão barra","m":"Bom da Fazenda","c":"Queijos e laticínios","z":"Tamanho: 500 g.","img":"33594765ebb6.webp"},{"t":"Requeijão cremoso","m":"Bom da Fazenda","c":"Queijos e laticínios","z":"Tamanhos: 400 g e 200 g.","img":"29114d0d6ad5.webp"},{"t":"Muçarela palito","m":"Bom da Fazenda","c":"Queijos e laticínios","z":"Tamanho: 200 g.","img":"589f70292718.webp"},{"t":"Queijo Porão","m":"Fazenda Atalaia","c":"Queijos e laticínios","z":"Vendido por quilo.","img":"bc9503e30fcd.webp","kg":1},{"t":"Meia cura da Canastra, tradicional","m":"Roça da Cidade","c":"Queijos e laticínios","z":"Peça inteira, meia peça ou 1/4 de peça.","img":"dcfad4b3db38.webp","kg":1},{"t":"Provolone em pedaço","m":"Tânia","c":"Queijos e laticínios","z":"Vendido por quilo.","img":"a3627c1ba442.webp","kg":1},{"t":"Provolonete","m":"Tânia","c":"Queijos e laticínios","z":"Vendido por quilo.","img":"c0fb7c7bdcac.webp","kg":1},{"t":"Doce de leite","m":"Majestic","c":"Doces e sobremesas","z":"Tamanho: 460 g.","img":"153a5453cc9f.webp","u":"https://www.mercadolivre.com.br/majestic-doce-de-leite-530g-tradicional-do-sul-de-minas-delicioso-cremoso-sem-igual/p/MLB60859001?pdp_filters=seller_id%3A3255124164"},{"t":"Manteiga","m":"Majestic","c":"Queijos e laticínios","z":"Tamanho: 200 g.","img":"39212c62f7b1.webp"},{"t":"Minas frescal","m":"Majestic","c":"Queijos e laticínios","z":"Vendido por quilo.","img":"121cf21b05e1.webp","kg":1},{"t":"Minas padrão","m":"Majestic","c":"Queijos e laticínios","z":"Vendido por quilo.","img":"dc915fb053f8.webp","kg":1},{"t":"Muçarela palito","m":"Majestic","c":"Queijos e laticínios","z":"Vendido por quilo.","img":"21a7007ba275.webp","kg":1},{"t":"Merendinha","m":"Roça da Cidade","c":"Queijos e laticínios","z":"","img":"8396ef7cbbf8.webp"},{"t":"Provolone desidratado, tradicional","m":"Kamila","c":"Queijos e laticínios","z":"","img":"3943e70f813c.webp"},{"t":"Doce de leite com café","m":"Duas Irmãs","c":"Doces e sobremesas","z":"Tamanho: 400 g.","img":"6cfe718c442b.webp"},{"t":"Doce de leite zero açúcar","m":"Duas Irmãs","c":"Doces e sobremesas","z":"Tamanho: 400 g.","img":"1109366a27ec.webp","u":"https://www.mercadolivre.com.br/doce-de-leite-zero-acucar-diet-fit-400g-duas-irmas-em-pote-de-vidro/p/MLB70265813?pdp_filters=seller_id%3A3255124164"},{"t":"Cocada cremosa","m":"Duas Irmãs","c":"Doces e sobremesas","z":"Tamanho: 400 g.","img":"737af7fd5991.webp"},{"t":"Brigadeiro de colher zero açúcar","m":"Duas Irmãs","c":"Doces e sobremesas","z":"Tamanho: 400 g.","img":"103813330514.webp","u":"https://www.mercadolivre.com.br/brigadeiro-de-colher-duas-irmas-zero-acucar-400g/up/MLBU5219686647?pdp_filters=seller_id%3A3255124164"},{"t":"Casadinho","m":"Duas Irmãs","c":"Doces e sobremesas","z":"Tamanho: 400 g.","img":"2b0b1e8c16c1.webp"},{"t":"Doce de morango","m":"Duas Irmãs","c":"Doces e sobremesas","z":"Tamanho: 400 g.","img":"814b65f6782e.webp"},{"t":"Biscoito de polvilho doce tradicional","m":"Empório","c":"Biscoitos e torradas","z":"Tamanho: 80 g.","img":"dc90cc4672d2.webp"},{"t":"Torrada orégano","m":"Estilo Caseiro","c":"Biscoitos e torradas","z":"Tamanho: 150 g.","img":"5ffa72d2f4e6.webp"},{"t":"Torrada parmesão","m":"Estilo Caseiro","c":"Biscoitos e torradas","z":"Tamanho: 150 g.","img":"a8eb62e68edf.webp"},{"t":"Torrada tradicional","m":"Estilo Caseiro","c":"Biscoitos e torradas","z":"Tamanho: 150 g.","img":"ed5973a00341.webp"},{"t":"Torrada cebola","m":"Estilo Caseiro","c":"Biscoitos e torradas","z":"Tamanho: 150 g.","img":"8fe7915fdda1.webp"},{"t":"Grissini parmesão","m":"Estilo Caseiro","c":"Biscoitos e torradas","z":"Tamanho: 100 g.","img":"cbdefdbf1817.webp"},{"t":"Grissini cebola e salsa","m":"Estilo Caseiro","c":"Biscoitos e torradas","z":"Tamanho: 100 g.","img":"9958b545c5f9.webp"},{"t":"Grissini tradicional","m":"Estilo Caseiro","c":"Biscoitos e torradas","z":"Tamanho: 100 g.","img":"744aeeb8b3dc.webp"},{"t":"Grissini gergelim","m":"Estilo Caseiro","c":"Biscoitos e torradas","z":"Tamanho: 100 g.","img":"e35aa0d8e1ed.webp"},{"t":"Geleia de amora","m":"Bon Jelly","c":"Geleias e mel","z":"Tamanho: 300 g.","img":"10c9bed5fe97.webp"},{"t":"Goiabada premium sem adição de açúcar","m":"Zélia","c":"Doces e sobremesas","z":"Tamanho: 360 g (lata).","img":"42af0272ef7e.webp"},{"t":"Goiabada","m":"Zélia","c":"Doces e sobremesas","z":"Tamanho: 800 g (lata).","img":"0175dfb9d3d0.webp","u":"https://www.mercadolivre.com.br/goiabada-zelia-lata-800g/p/MLB2107084481?pdp_filters=seller_id%3A3255124164"},{"t":"Bananada cremosa com canela","m":"Zélia","c":"Doces e sobremesas","z":"Tamanho: 400 g (lata).","img":"f6a2c3f1305b.webp","u":"https://www.mercadolivre.com.br/doce-de-bananada-cremosa-zelia-doce-de-banana-doces-zelia-sem-tacc-em-lata-400g/p/MLB53680836?pdp_filters=seller_id%3A3255124164"},{"t":"Bananada sem açúcar","m":"Zélia","c":"Doces e sobremesas","z":"Tamanho: 400 g (lata).","img":"0d8779ee3704.webp","u":"https://www.mercadolivre.com.br/bananada-cremosa-zelia-lata-s-gluten-sem-adicao-acucar-400g/p/MLB19748245?pdp_filters=seller_id%3A3255124164"},{"t":"Beijo de freira","m":"Duas Irmãs","c":"Doces e sobremesas","z":"Tamanho: 400 g.","img":"c7959fc65116.webp"},{"t":"Café em grão bourbon","m":"Duas Irmãs","c":"Cafés","z":"Tamanho: 250 g.","img":"0123cd4975f7.webp"},{"t":"Café moído bourbon","m":"Duas Irmãs","c":"Cafés","z":"Tamanho: 250 g.","img":"8a126a652bcf.webp","u":"https://www.mercadolivre.com.br/cafe-moido-duas-irmas-bourbon-250g/up/MLBU5484333851?pdp_filters=seller_id%3A3255124164"},{"t":"Café gourmet moído","m":"Duas Irmãs","c":"Cafés","z":"Tamanho: 500 g.","img":"285004eb24a8.webp"},{"t":"Queijo artesanal jovem","m":"Aiuruoca","c":"Queijos e laticínios","z":"Vendido por quilo.","img":"5af01c83a4b9.webp","kg":1},{"t":"Queijo artesanal vaca queimada","m":"Aiuruoca","c":"Queijos e laticínios","z":"Vendido por quilo.","img":"0daa9fca0f64.webp","kg":1},{"t":"Azeite extra virgem blend médio","m":"Costa Doce","c":"Azeites e conservas","z":"Tamanho: 250 ml.","img":"54cdbb69c99b.webp","u":"https://www.mercadolivre.com.br/azeite-extra-virgem-costa-doce-blend-medio-sem-gluten/p/MLB69444386?pdp_filters=seller_id%3A3255124164"},{"t":"Muçarela palito condimentada","m":"Bom da Fazenda","c":"Queijos e laticínios","z":"Tamanho: 200 g.","img":"9e846d08cd1d.webp"},{"t":"Figo Ramy","m":"Tatitânia","c":"Doces e sobremesas","z":"Tamanho: 500 g (lata).","img":"ddf45dcaa3f7.webp"},{"t":"Lombo canadense fatiado","m":"Ceratti","c":"Frios e embutidos","z":"Tamanho: 100 g.","img":"c521658aee9f.webp"},{"t":"Prosciutto macinato defumado","m":"Ceratti","c":"Frios e embutidos","z":"Tamanho: 100 g.","img":"1c183d0f1d3a.webp"},{"t":"Salame tipo italiano","m":"Ceratti","c":"Frios e embutidos","z":"Tamanho: 100 g.","img":"d43336ae82b6.webp"},{"t":"Kit doce de leite em bala e em lata","m":"Dona Lázara","c":"Doces e sobremesas","z":"","img":"3c197df0041e.webp","u":"https://www.mercadolivre.com.br/kit-doce-de-leite-bala-e-lata-dona-lazara/up/MLBU5759157743?pdp_filters=seller_id%3A3255124164"},{"t":"Doce de leite com café","m":"Dona Lázara","c":"Doces e sobremesas","z":"Tamanho: 400 g (lata).","img":"66ed9b5296d6.webp"}];
+const ORDEM=["Doces e sobremesas", "Queijos e laticínios", "Geleias e mel", "Biscoitos e torradas", "Cafés", "Azeites e conservas", "Cachaças", "Frios e embutidos"];
+const destaque=["cocada mineira","bala de doce de leite puxa","bala de doce de leite com","cocada morena","kit doce de leite","goiabada","bananada","doce de leite na palha","doce de leite zero"];
+const di=p=>{const i=destaque.findIndex(d=>p.t.toLowerCase().startsWith(d));return i<0?99:i};
+P.sort((a,b)=>di(a)-di(b)||(b.u?1:0)-(a.u?1:0)||a.m.localeCompare(b.m,"pt")||a.t.localeCompare(b.t,"pt"));
+let atual="Todos";
+const LOJAS={ml:"https://www.mercadolivre.com.br/pagina/srprovolone",amazon:"",shopee:""}; // links gerais das lojas; cada produto pode trazer o seu em p.u (Mercado Livre), p.a (Amazon) e p.s (Shopee)
+const ZAP="https://wa.me/5511921461891?text=";
+function botoes(p){return `<a class="wa" href="${ZAP+encodeURIComponent("Olá! Quero saber do produto: "+p.m+" "+p.t)}" target="_blank" rel="noopener">Perguntar no WhatsApp</a>`}
+function card(p){return `<div class="prod"><div class="ft">${p.kg?'<span class="tag">Só na loja</span>':''}<img onerror="this.parentNode.classList.add('semfoto');this.remove()" src="${p.img}" alt="${(p.m+" "+p.t).replace(/"/g,"")}"></div><div class="info"><div class="m">${p.m}</div><div class="t">${p.t}</div>${p.z?`<div class="s">${p.z}</div>`:""}<div class="cmp">${botoes(p)}</div></div></div>`}
+const VIT=ORDEM.map(c=>{const l=P.filter(p=>p.c===c);return l[Math.floor(Math.random()*l.length)]}).filter(Boolean);
+function desenha(){const el=document.getElementById("prods");const cats=atual==="Todos"?ORDEM:[atual];el.classList.remove("vit");
+if(atual==="Todos"&&!aberto.has("Todos")){el.classList.add("vit");el.innerHTML=VIT.map(card).join("")+`<div class="vermais"><button type="button" data-cat="Todos">Ver todos os ${P.length} produtos</button></div>`;return}
+el.innerHTML=cats.map(c=>{const l=P.filter(p=>p.c===c);if(!l.length)return "";const ab=aberto.has(c),v=ab?l:l.slice(0,6);
+return `<h3 class="cat">${c}<span>${l.length} ${l.length>1?"produtos":"produto"}</span></h3>`+v.map(card).join("")+(l.length>6?`<div class="vermais"><button type="button" data-cat="${c}">${ab?"Mostrar menos":"Ver mais "+(l.length-6)+" em "+c.toLowerCase()}</button></div>`:"")}).join("")+(atual==="Todos"?`<div class="vermais"><button type="button" data-cat="Todos">Mostrar só os destaques</button></div>`:"")}
+const aberto=new Set();
+document.getElementById("prods").addEventListener("click",e=>{const b=e.target.closest(".vermais button");if(!b)return;const c=b.dataset.cat,fechando=aberto.has(c);fechando?aberto.delete(c):aberto.add(c);desenha();if(fechando)document.getElementById("produtos").scrollIntoView({behavior:"smooth"})});
+const f=document.getElementById("filtros");
+["Todos",...ORDEM].forEach(g=>{const b=document.createElement("button");b.textContent=g;if(g===atual)b.className="on";b.onclick=()=>{atual=g;[...f.children].forEach(x=>x.className=x===b?"on":"");desenha()};f.appendChild(b)});
+desenha();
+const mais=document.getElementById("lojas-mais");
+if(mais)mais.innerHTML=[["Mercado Livre",LOJAS.ml],["Amazon",LOJAS.amazon],["Shopee",LOJAS.shopee]].map(x=>x[1]?`<a class="btn vinho" href="${x[1]}" target="_blank" rel="noopener">${x[0]}</a>`:`<span class="btn breve" aria-disabled="true">${x[0]} <small>em breve</small></span>`).join("");
+document.querySelectorAll('.fotoslot img:not([src])').forEach(i=>{i.src=document.querySelector('.selo img').src});
+const gl=document.getElementById('gloss');
+document.getElementById('gl-abre').onclick=()=>gl.showModal();
+document.getElementById('gl-x').onclick=()=>gl.close();
+gl.addEventListener('click',e=>{if(e.target===gl)gl.close()});
+</script>
+
+
+</body></html>
